@@ -1,0 +1,52 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f6;
+    color: #333;
+}
+
+.stButton button {
+    background-color: #0fec64;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.stButton button:hover {
+    background-color: #0056b3;
+}
+
+.stSidebar .sidebar-content {
+    background-color: #343a40;
+    color: white;
+}
+
+.stSidebar select {
+    background-color: #495057;
+    color: white;
+}
+
+.stSidebar .sidebar-content h2 {
+    color: white;
+}
+
+.stSidebar .sidebar-content .css-10trblm {
+    color: white;
+}
+
+.stNumberInput input {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.stNumberInput input:focus {
+    border-color: #007bff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #007bff;
+}
