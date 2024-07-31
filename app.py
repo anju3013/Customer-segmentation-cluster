@@ -116,8 +116,7 @@ if st.button("Predict Cluster"):
 
     features_scaled = scaler.transform(features_df)
     features_pca = pca.transform(features_scaled)
-    features_pca=pd.DataFrame(features_pca)
-    features_pca.columns = features_pca.columns.astype(str)
+    
 
     st.write(f"Transformed Features: {features_pca}")
 
